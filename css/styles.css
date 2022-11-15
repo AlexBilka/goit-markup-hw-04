@@ -202,10 +202,10 @@ img {
   margin-left: 30px;
 }
 .features-icon-wrap {
+  height: 120px;
   display: flex;
   justify-content: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  align-items: center;
   margin-bottom: 30px;
   border-radius: 4px;
   background-color: var(--portfolio-secondary-btn-color);
@@ -259,7 +259,7 @@ img {
 }
 .team-text {
   padding-top: 30px;
-  padding-bottom: 16px;
+  padding-bottom: 30px;
   text-align: center;
 }
 .team-name {
@@ -273,12 +273,12 @@ img {
 .team-profession {
   font-size: 16px;
   line-height: 1.18;
+  margin-bottom: 16px;
 }
 
 .team-soc-list {
   display: flex;
   justify-content: center;
-  padding-bottom: 30px;
   gap: 10px;
 }
 .team-soc-item {
@@ -332,13 +332,14 @@ img {
 
 /*------footer------*/
 
-.footer {
+.footer {  
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--gray);
 }
 .footer-wrap {
   display: flex;
   align-items: baseline;
-  padding: 60px 0;
 }
 .footer .logo {
   display: block;
@@ -365,6 +366,7 @@ img {
 }
 .follow-title {
   margin-bottom: 20px;
+  font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--white);
@@ -372,7 +374,6 @@ img {
 .follow-soc-list {
   display: flex;
   justify-content: center;
-  padding-bottom: 30px;
   gap: 10px;
 }
 .follow-soc-item {
