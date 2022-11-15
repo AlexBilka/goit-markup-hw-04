@@ -121,6 +121,8 @@ img {
   color: var(--accent);
 }
 .header-contact {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -129,6 +131,11 @@ img {
 .header-contact:hover,
 .header-contact:focus {
   color: var(--accent);
+  fill: var(--accent);
+}
+.contact-icon {
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 /*------main------*/
@@ -193,6 +200,17 @@ img {
 }
 .features-item + .features-item {
   margin-left: 30px;
+}
+.features-icon-wrap {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;  
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-color: var(--portfolio-secondary-btn-color);
+}
+.features-icon {
 }
 .features-subtitle {
   margin-bottom: 10px;
