@@ -205,12 +205,10 @@ img {
   display: flex;
   justify-content: center;
   padding-top: 25px;
-  padding-bottom: 25px;  
+  padding-bottom: 25px;
   margin-bottom: 30px;
   border-radius: 4px;
   background-color: var(--portfolio-secondary-btn-color);
-}
-.features-icon {
 }
 .features-subtitle {
   margin-bottom: 10px;
@@ -320,8 +318,8 @@ img {
 }
 .client-link {
   display: block;
-  padding: 15px 32px;  
-  height: 92px;  
+  padding: 15px 32px;
+  height: 92px;
   border: 1px solid var(--icon-gray);
   border-radius: 4px;
   fill: var(--icon-gray);
@@ -331,7 +329,6 @@ img {
   fill: var(--accent);
   border: 1px solid var(--accent);
 }
-
 
 /*------footer------*/
 
@@ -367,10 +364,10 @@ img {
   padding-top: 14px;
 }
 .follow-title {
-margin-bottom: 20px;
-line-height: 1.14;
-text-transform: uppercase;
-color: var(--white);
+  margin-bottom: 20px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--white);
 }
 .follow-soc-list {
   display: flex;
