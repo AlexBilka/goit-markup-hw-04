@@ -337,6 +337,7 @@ img {
 }
 .footer-wrap {
   display: flex;
+  align-items: baseline;
   padding: 60px 0;
 }
 .footer .logo {
@@ -361,7 +362,6 @@ img {
 }
 .follow-wrap {
   margin-left: 94px;
-  padding-top: 14px;
 }
 .follow-title {
   margin-bottom: 20px;
